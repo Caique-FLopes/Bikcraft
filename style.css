@@ -1,0 +1,28 @@
+#logo {
+  display: block;
+  max-width: 100%;
+  
+}
+
+.nav {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  flex: 1;
+}
+
+.option {
+  background: #ccc;
+  border: 2px solid black;
+  padding: 5px;
+}
+
+.item {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 3;
+}
+
+#bicicleta {
+  grid-row: 1 2;
+}
