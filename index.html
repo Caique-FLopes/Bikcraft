@@ -9,25 +9,32 @@
 </head>
 
 <body>
+  <header class="header">
   <img src="./img/bikcraft.svg" alt="Logo Bikcraft" id="logo">
 
-  <div class="menu">
-    <a href="/">Sobre</a>
-    <a href="/">Produtos</a>
-    <a href="/">Lojas</a>
-    <a href="/">Contato</a>
-  </div>
-
-  <div class="item">
-    <div class="introdução">
+  <nav aria-label="primaria">
+    <ul class="menu" >
+      <li><a href="/">Sobre</a></li>
+      <li><a href="/">Produtos</a></li>
+      <li><a href="/">Lojas</a></li>
+      <li><a href="/">Contato</a></li>
+    </ul>
+  </nav>
+  </header>
+  
+  <main >
+    <article class="conteudo" >
+    <div class="introdução" aria-labelledby="label-introducao">
       <span class="detalhe"></span>
-          <h1>Bicicletas Feitas a Mão</h1>
-              <p>A Nimbus Stark é a melhor Bikcraft já criada pela nossa equipe. Ela vem equipada com os melhores acessórios da marca.</p>
-              <a href="/" class="button">Ver mais</a>
+      <h1 id="label-introducao">Bicicletas Feitas a Mão</h1>
+      <p>A Nimbus Stark é a melhor Bikcraft já criada pela nossa equipe. Ela vem equipada com os melhores acessórios da marca.</p>
+      <a href="/" class="button">Ver mais</a>
     </div>
-
     <img src="./img/bicicleta.jpg" alt="Bikcraft" id="bicicleta">
-    <h2 class="subtitulo">Vantagens bikcraft<h2>
+  </article>
+
+  <article class="conteudo" aria-labelledby="label-vantagens">
+    <h2 class="subtitulo" id="label-vantagens">Vantagens bikcraft</h2>
         <div class="vantagens">
           <div class="vantagens-itens">
             <img src="./img/eletrica.svg" alt="">
@@ -41,11 +48,12 @@
             <p>Rastreador e sistema anti-furto para garantir o seu sossego.</p>
           </div>
         </div>
-  </div>
-  <div class="rodape">
+      </article>
+      </main>
+  <footer class="rodape">
     <p>Bikcraft. Alguns Direitos Reservados.
     <p>
-  </div>
+    </footer>
 </body>
 
 </html>
